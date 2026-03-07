@@ -11,7 +11,7 @@ interface ColumnStyle { bg: string; accent: string; glow: string }
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const TOTAL_NUMBERS = 75;
-const DRAW_INTERVAL_MS = 3000;
+const DRAW_INTERVAL_MS = 5000;
 
 const COLUMN_COLORS: Record<BingoLetter, ColumnStyle> = {
   B: { bg: "#1a2e50", accent: "#3b82f6", glow: "rgba(59,130,246,0.6)" },
